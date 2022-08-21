@@ -1,0 +1,46 @@
+.titre_g {
+  text-align: center;
+  font-size: 250%;
+  font-family: system-ui;
+}
+
+.article_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.article_button {
+  font-size: large;
+  font-family: system-ui;
+  grid-column: 2;
+  border-radius: 10px;
+  background-color: black;
+  grid-row: 1;
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 50px;
+  padding: 20px;
+}
+
+:hover.article_button {
+  color: black;
+  background-color: white;
+  border: solid;
+  border-color: black;
+  transition: 250ms;
+}
+
+.titre_article {
+  font-size: x-large;
+  font-family: system-ui;
+  grid-column: 1;
+  grid-row: 1;
+}
