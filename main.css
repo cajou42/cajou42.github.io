@@ -9,6 +9,7 @@
 
 .text1 {
   margin: auto;
+  margin-left: 10px;
   color: aliceblue;
   grid-column: 1;
   grid-row: 1;
@@ -169,12 +170,15 @@
   font-size: x-large;
   font-family: system-ui;
   color: #01071a;
-  margin: auto;
 }
 
 .footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
 }
 
 .sep {

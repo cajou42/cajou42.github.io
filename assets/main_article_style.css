@@ -1,7 +1,9 @@
 .titre_g {
   text-align: center;
-  font-size: 250%;
+  font-size: 350%;
   font-family: system-ui;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .article_container {
@@ -12,14 +14,15 @@
   border: solid;
   border-color: black;
   border-radius: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 20px;
 }
 
 .article_button {
   font-size: large;
   font-family: system-ui;
-  grid-column: 2;
+  grid-column: 3;
   border-radius: 10px;
   background-color: black;
   grid-row: 1;
@@ -43,4 +46,55 @@
   font-family: system-ui;
   grid-column: 1;
   grid-row: 1;
+  margin: auto;
+  margin-left: 50px;
+}
+
+.article_content {
+  font-size: large;
+  font-family: system-ui;
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 3px 3px 3px 3px gray;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image_article {
+  margin-top: 100px;
+  margin-left: 510px;
+  width: 800px;
+}
+
+.image_article2 {
+  margin-top: 100px;
+  margin-left: 750px;
+}
+
+.desc_img {
+  font-family: system-ui;
+  font-style: italic;
+  margin-top: 40px;
+  margin-left: 770px;
+}
+
+.desc_img {
+  font-family: system-ui;
+  font-style: italic;
+  margin-top: 40px;
+  margin-left: 745px;
+}
+
+.article_sep {
+  margin-top: 150px;
+}
+
+.article_sep2 {
+  margin-top: 370px;
+}
+
+.article_sep3 {
+  margin-top: 215px;
 }
