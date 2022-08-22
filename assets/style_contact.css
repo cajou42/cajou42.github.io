@@ -1,0 +1,36 @@
+.contact_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-left: 750px;
+}
+
+.titre_g {
+  text-align: center;
+  font-size: 350%;
+  font-family: system-ui;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.image_contact {
+  grid-column: 1;
+  grid-row: 1;
+  margin: auto;
+  width: 50px;
+  margin-left: 50px;
+}
+
+.lien_contact {
+  grid-column: 2;
+  grid-row: 1;
+  margin: auto;
+  font-family: system-ui;
+}
+
+.sep8 {
+  margin-top: 135px;
+  margin-left: -5px;
+  margin-right: -5px;
+}

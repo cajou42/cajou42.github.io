@@ -1,0 +1,19 @@
+.titre_g {
+  text-align: center;
+  font-size: 350%;
+  font-family: system-ui;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.logo {
+  margin-left: 40%;
+  margin-bottom: 30px;
+}
+
+.text_ent {
+  font-size: large;
+  font-family: system-ui;
+  margin-left: 20%;
+  margin-bottom: 45px;
+}
