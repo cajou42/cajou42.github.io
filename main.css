@@ -136,8 +136,22 @@
   padding: 2px;
   padding-left: 20px;
   border-radius: 10px;
-  height: 300px;
+  height: 325px;
   margin-top: 150px;
+}
+
+@media (min-width: 1600px) {
+  .description {
+    grid-column: 3;
+    grid-row: 1;
+    font-family: system-ui;
+    box-shadow: 3px 3px 3px 3px gray;
+    padding: 2px;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 275px;
+    margin-top: 150px;
+  }
 }
 
 .classic_text {

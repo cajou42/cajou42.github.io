@@ -3,7 +3,17 @@
   grid-template-columns: repeat(2, 150px);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-  margin-left: 750px;
+  margin-left: 500px;
+}
+
+@media (min-width: 1600px) {
+  .contact_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 750px;
+  }
 }
 
 .titre_g {

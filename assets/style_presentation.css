@@ -14,6 +14,15 @@
 .text_ent {
   font-size: large;
   font-family: system-ui;
-  margin-left: 20%;
+  margin-left: 10%;
   margin-bottom: 45px;
+}
+
+@media (min-width: 1600px) {
+  .text_ent {
+    font-size: large;
+    font-family: system-ui;
+    margin-left: 20%;
+    margin-bottom: 45px;
+  }
 }
